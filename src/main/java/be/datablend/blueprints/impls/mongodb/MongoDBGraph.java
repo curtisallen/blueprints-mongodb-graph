@@ -64,7 +64,7 @@ public class MongoDBGraph implements MetaGraph<DB>, KeyIndexableGraph {
         FEATURES.supportsDuplicateEdges = true;
         FEATURES.supportsSelfLoops = true;
         FEATURES.isPersistent = true;
-        FEATURES.isRDFModel = false;
+        // FEATURES.isRDFModel = false; // remove for blueprints 2.4.0-SNAPSHOT
         FEATURES.supportsVertexIteration = true;
         FEATURES.supportsEdgeIteration = true;
         FEATURES.supportsVertexIndex = false;
